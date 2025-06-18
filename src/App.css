@@ -1,0 +1,10 @@
+.design-bags img{
+    color:white;
+}
+.color{
+    background-color: none;
+}
+.productimg{
+    width: -webkit-fill-available !important;
+    max-height: 450px;
+}

@@ -1,0 +1,68 @@
+.vector-icon{
+    justify-content: end; 
+}
+.design-bags{
+  position: relative;
+}
+/* DesignBags.css */
+@media screen and (max-width: 900px) {
+  .design-bags img {
+    height: 40px;
+    position:static;
+  }
+
+  .design-bags p {
+    font-size: 0.85rem;
+  }
+}
+/* DesignBags.css */
+
+/* For very small screens (300px) */
+@media screen and (max-width: 320px) {
+  .design-bags img {
+    height: 5px;
+    position: relative;
+  }
+  .design-bags p {
+    font-size: 0.65rem;
+    margin-bottom: 0.5rem;
+  }
+  .nav-search{
+    justify-content: flex-end;
+    position: relative;
+  }
+}
+.main{
+   background-color: #1A1A1A;
+}
+.body {
+  background-color: #0D0D0D; /* main background */
+  height: auto;
+}
+
+/* For phones (300px–600px) */
+@media screen and (max-width: 600px) {
+  .design-bags img {
+    height: 20px;
+    position: relative;
+  }
+  .design-bags p {
+    font-size: 0.85rem;
+  }
+}
+
+/* For tablets (600px–900px) */
+@media screen and (max-width: 990px) {
+  .design-bags img {
+    height: 40px;
+  }
+  .design-bags p {
+    font-size: 0.9rem;
+  }
+}
+
+  .product-row{
+  overflow: auto;
+ 
+}
+
